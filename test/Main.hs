@@ -11,3 +11,4 @@ main = do
     ("tier1":_) -> T1.main
     ("tier2":_) -> T2.main
     _ -> putStrLn "please specify test suite (tier0/tier1/tier2)"
+

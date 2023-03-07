@@ -15,5 +15,8 @@ collectAndSumInOrder (Branch l v r) = do
     y <- collectAndSumInOrder r
     return (x++[v]++y)
 
+
+    
+
  
   
